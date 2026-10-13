@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="theme-color" content="#D0006F">
+
+    <title>SHOPS K&amp;D | Confitería y Salado para todo momento</title>
+    <meta name="description" content="Catálogo de confitería y salados SHOPS K&amp;D. Mira los productos y coordina tu pedido directo por WhatsApp.">
+
+    <link rel="icon" type="image/jpeg" href="<%= BASE_URL %>logo-pyme.jpeg">
+
+    <!-- Vista previa al compartir (WhatsApp, Facebook, Instagram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:site_name" content="SHOPS K&amp;D">
+    <meta property="og:title" content="SHOPS K&amp;D | Confitería y Salado">
+    <meta property="og:description" content="Mira nuestro catálogo y pide directo por WhatsApp.">
+    <meta property="og:url" content="<%= VUE_APP_SITE_URL %>">
+    <meta property="og:image" content="<%= VUE_APP_SITE_URL %>/logo-pyme.jpeg">
+    <meta property="og:image:alt" content="Logo SHOPS K&amp;D">
+    <meta name="twitter:card" content="summary">
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>SHOPS K&amp;D necesita JavaScript para mostrar el catálogo. Actívalo para continuar.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
