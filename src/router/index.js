@@ -7,7 +7,7 @@ const routes = [
     path: '/',
     name: 'store',
     component: StoreView,
-    meta: { title: 'SHOPS K&D | Confitería y Salado para todo momento' }
+    meta: { title: 'SHOPS K&D | Frutas Deshidratadas' }
   },
   {
     path: '/admin/login',
