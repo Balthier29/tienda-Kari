@@ -13,7 +13,7 @@ const { session } = useSession()
         <img src="/logo-pyme.jpeg" alt="" class="navbar-logo" />
         <div class="brand-text">
           <span class="brand-title">SHOPS K&D</span>
-          <span class="brand-subtitle">Confitería y Salado</span>
+          <span class="brand-subtitle">Frutas Deshidratadas</span>
         </div>
       </router-link>
 

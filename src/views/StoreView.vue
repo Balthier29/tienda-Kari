@@ -22,9 +22,9 @@ const currentYear = new Date().getFullYear()
         <div class="container hero-container">
           <div class="hero-text">
             <h1 class="hero-title">SHOPS K&D</h1>
-            <p class="hero-tagline">Confitería y Salado para todo momento</p>
+            <p class="hero-tagline">Frutas Deshidratadas</p>
             <p class="hero-description">
-              Explora nuestra selección de productos disponibles. Haz clic en
+              Productos elavorados con mucho cariño, cuidando cada detalle para llevar hasta ti lo mejor de nuestras frutas. Haz clic en
               <strong style="color: var(--primary);">"Pedir por WS"</strong>
               o revisa los detalles para coordinar tu compra directamente con nosotros.
             </p>
